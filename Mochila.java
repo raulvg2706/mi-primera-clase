@@ -36,4 +36,17 @@ public class Mochila {
     public void correrCremallera() {
         abiertaCerrada = !abiertaCerrada;
     }
+    
+    public void imprimirEstado() {
+        System.out.println("Color: " + color);
+        System.out.println("Peso Máximo: " + pesoMax);
+        System.out.println("Estado: " + (abiertaCerrada ? "Abierta" : "Cerrada"));
+    }
+
+    public String estadoMochila() {
+        String estado = "Color: " + color +
+                        " Peso Máximo: " + pesoMax +
+                        " Estado: " + (abiertaCerrada ? "Abierta" : "Cerrada");
+        return estado;
+    }
 }
