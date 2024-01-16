@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Mochila
+comment1.params=color\ pesoMax
+comment1.target=Mochila(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getColor()
+comment3.params=
+comment3.target=int\ getPesoMax()
+comment4.params=
+comment4.target=boolean\ isAbierta()
+comment5.params=color
+comment5.target=void\ setColor(java.lang.String)
+comment6.params=nuevoPeso
+comment6.target=void\ modificarPesoMax(int)
+comment7.params=
+comment7.target=void\ correrCremallera()
+numComments=8
